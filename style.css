@@ -316,7 +316,6 @@ a {
 
 .card {
   overflow: hidden;
-
   background-color: #345;
 }
 .card:hover .card-img {
@@ -350,6 +349,10 @@ a {
 @media screen and (max-width: 992px) {
   .card-deck {
     flex-direction: column;
+  }
+  .card {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
 }
 
