@@ -16,7 +16,7 @@ document.onreadystatechange = function () {
   });
 };
 
-// animation
+// hero background animation
 particlesJS("home", {
   particles: {
     number: {
